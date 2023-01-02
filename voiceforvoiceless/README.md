@@ -1,2 +1,0 @@
-# VoiceforVoiceless
-Cat Shelter app
