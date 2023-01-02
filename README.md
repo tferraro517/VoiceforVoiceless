@@ -37,9 +37,7 @@ NA
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-![alt text](assets/images/screenshot.png)
+![image](https://user-images.githubusercontent.com/118402182/210267067-75ee22c8-fd62-4332-8666-1e97d0f7af9b.png)
 
 ## Credits
 
