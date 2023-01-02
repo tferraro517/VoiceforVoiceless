@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <!-- add logo img top left-->
+    <!-- logo-->
     <header class="header">
       <img src="./assets/images/shelter-logo.png" alt="" class="logo" />
       <nav class="contacts-con">
-        <!-- add contact links top right -->
+        <!-- contact information-->
         <div>Contact Us</div>
         <div>
           <a class="fa fa-phone" href="tel:+15183316629"></a>518.331.6629
@@ -48,7 +48,7 @@
       </nav>
     </header>
     <main class="hero">
-      <!-- adoption photos -->
+      <!-- email address input/mission -->
       <h1>Voice for the voiceless</h1>
       <div id="mission-statement">
         <p>
@@ -62,51 +62,82 @@
           clinics every saturday and sunday at Pet Supplies Plus in Glenville,
           NY.
         </p>
-        <br>
-       <form>
-          <label for ="emailaddress"></label>
-          <input type="text" id="emailaddress" name="email" placeholder="input email address">
-          <input type="button" value="Join our mailing list">
-       
-       </form>  
+        <br />
+        <form>
+          <label for="emailaddress"></label>
+          <input
+            type="text"
+            id="emailaddress"
+            name="email"
+            placeholder="input email address"
+          />
+          <input type="button" value="Join our mailing list" />
+        </form>
       </div>
-    <br>
+      <br />
+
+      <!--adoption photo slideshow-->
       <div class="slideshow-container">
         <div class="slides fade">
           <span>1/4</span>
-          <img src="assets\images\orangekitten_adoption.jpg" alt="Olive the orange cat">
-          <div class="text">Olive is a 8 month old domestic short hair female. Her adoption fee is $100. Come meet her this weekend at our adoption clinic.</div>
+          <img
+            src="assets\images\orangekitten_adoption.jpg"
+            alt="Olive the orange cat"
+          />
+          <div class="text">
+            Olive is a 8 month old domestic short hair female. Her adoption fee
+            is $100. Come meet her this weekend at our adoption clinic.
+          </div>
         </div>
-        <!-- <div class="slides fade">
+        <div class="slides fade">
           <span>2/4</span>
-          <img src="assets\images\stripecat_adoption.jpg" alt="Gus the striped cat">
-          <div class="text">Gus is a 3 year old striped domestic short hair male. His adoption fee is $80. Come meet him this weekend at our adoption clinic.</div>
+          <img
+            src="assets\images\stripecat_adoption.jpg"
+            alt="Gus the striped cat"
+          />
+          <div class="text">
+            Gus is a 3 year old striped domestic short hair male. His adoption
+            fee is $80. Come meet him this weekend at our adoption clinic.
+          </div>
         </div>
         <div class="slides fade">
           <span>3/4</span>
-          <img src="assets\images\twocat_adoption.jpg" alt="Charlie striped cat and Cleo tuxedo cat">
-          <div class="text">Charlie and Cleo are 1 year old sisters. They are bonded and will need to be adopted as a pair. Their adoption fee is $120. Come meet them this weekend at our adoption clinic.</div>
+          <img
+            src="assets\images\twocat_adoption.jpg"
+            alt="Charlie striped cat and Cleo tuxedo cat"
+          />
+          <div class="text">
+            Charlie and Cleo are 1 year old sisters. They are bonded and will
+            need to be adopted as a pair. Their adoption fee is $120. Come meet
+            them this weekend at our adoption clinic.
+          </div>
         </div>
         <div class="slides fade">
           <span>4/4</span>
-          <img src="assets\images\orangecat_adoption.jpg" alt="Max the orange cat">
-          <div class="text">Max is a 9 year old domestic short hair male. His adoption fee is $80. Come meet her this weekend at our adoption clinic.</div>
-        </div> -->
-        
-            <a class="previous" onclick="plusSlides(-1)">&lt;</a>
-            <a class="next" onclick="plusSlides(1)">&gt;</a>
+          <img
+            src="assets\images\orangecat_adoption.jpg"
+            alt="Max the orange cat"
+          />
+          <div class="text">
+            Max is a 9 year old domestic short hair male. His adoption fee is
+            $80. Come meet him this weekend at our adoption clinic.
+          </div>
         </div>
 
-      <div>
+        <a class="previous" onclick="plusSlides(-1)">&lt;</a>
+        <a class="next" onclick="plusSlides(1)">&gt;</a>
+      </div>
+
+      <div class="dots-box">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
         <span class="dot" onclick="currentSlide(4)"></span>
-        
       </div>
+      <br />
+      <hr />
     </main>
-  <hr>
-  <br>
+    <!--bottom footer with googlemaps-->
     <footer class="footer">
       <p>Adoption clinics located at PetSuppliesPlus in Glenville, NY</p>
 
@@ -123,7 +154,7 @@
         referrerpolicy="no-referrer-when-downgrade"
         class="map"
       ></iframe>
-      
     </footer>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

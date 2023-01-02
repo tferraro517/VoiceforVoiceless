@@ -12,7 +12,7 @@ facebook: https://www.facebook.com/voiceless2015
 ## Acceptance Criteria
 ​
 1. When a user opens up the application: 
-    then they will see an organized layout of a local cat shelter.
+    then they will see an organized layout of a local New York cat shelter.
 2. When a user clicks on the contact information:
     then they will be able to contact the owner of the company.
 3. What a user wants to view the social media pages of the company:
@@ -20,11 +20,15 @@ facebook: https://www.facebook.com/voiceless2015
 4. When you view the cat pitures:
     then you will be able to click next/previous and view more cat pitcures in a slide show.
 5. When you click the "join our mailing list" button:
-    then you will be able to input your email which will be saved in local storage.
+    then you will be able to input your email address.
 6. When a user views image elements:
     then they will find accessible alt attributes.
-7. 
-8.
+7. When a user clicks on one of the four dots below the images:
+    then you will be able to view the corresponding images.
+8. When a user resizes the page or view the site on various screens:
+    then I am presented with a responsive layout that adapts to my viewport
+9. When a user clicks on the next/previous picture:
+    then the image will fade in.
 
 
 ## Installation
@@ -34,8 +38,6 @@ NA
 ## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
 ![alt text](assets/images/screenshot.png)
 
